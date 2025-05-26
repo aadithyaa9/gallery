@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeTips Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CollegeTips Photo Gallery 📸✨</h1>
+            <p>Showcasing our coolest moments with vibe, style, and fun!</p>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch" class="theme-switch" />
+                <label for="theme-switch" class="theme-switch-label">
+                    <i class="fas fa-sun light-icon"></i>
+                    <i class="fas fa-moon dark-icon"></i>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="gallery-filters">
+            <h2>Explore Our Moments</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="team">Team Vibes 🤝</button>
+                <button class="filter-btn" data-filter="Different Schemes">Different Schemes 🎨</button>
+                <button class="filter-btn" data-filter="workplay">Work Hard, Play Hard 🥳</button>
+                <button class="filter-btn" data-filter="bts">Behind-The-Scenes 🎥</button>
+                <button class="filter-btn" data-filter="Office Tour">Office Tour </button>
+            </div>
+        </section>
+
+        <section class="photo-gallery">
+            <div class="gallery-item" data-category="team">
+                <img src="images/team1.png" alt="CollegeTips 1">
+                <div class="overlay">
+                    <span class="caption">Team Huddle</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="team">
+                <img src="images/team2.jpg" alt="CollegeTips 2">
+                <div class="overlay">
+                    <span class="caption">Brainstorming Session</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="team">
+                <img src="images/team3.jpg" alt="CollegeTips 3">
+                <div class="overlay">
+                    <span class="caption">Collaborative Spirit</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="team">
+                <img src="images/team4.jpg" alt="CollegeTips 4">
+                <div class="overlay">
+                    <span class="caption">Brunch</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="team">
+                <img src="images/team5.webp" alt="CollegeTips 5">
+                <div class="overlay">
+                    <span class="caption">Our Amazing Crew</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="Different Schemes">
+                <img src="images/creative1.jpg" alt="Creative Campaign Image 1">
+                <div class="overlay">
+                    <span class="caption">Pets = Life</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Different Schemes">
+                <img src="images/creative2.jpg" alt="Creative Campaign Image 2">
+                <div class="overlay">
+                    <span class="caption">Oxygen == Life</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Different Schemes">
+                <img src="images/creative3.jpg" alt="Creative Campaign Image 3">
+                <div class="overlay">
+                    <span class="caption">Internship</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Different Schemes">
+                <img src="images/creative4.png" alt="Creative Campaign Image 4">
+                <div class="overlay">
+                    <span class="caption">Marketing Magic</span>
+                </div>
+            </div>
+            
+
+            <div class="gallery-item" data-category="workplay">
+                <img src="images/workplay1.jpg" alt="Work Hard, Play Hard Image 1">
+                <div class="overlay">
+                    <span class="caption">Office Fun</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="workplay">
+                <img src="images/workplay2.jpg" alt="Work Hard, Play Hard Image 2">
+                <div class="overlay">
+                    <span class="caption">Chillax</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="workplay">
+                <img src="images/workplay3.webp" alt="Work Hard, Play Hard Image 3">
+                <div class="overlay">
+                    <span class="caption">Gaming Break</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="workplay">
+                <img src="images/workplay4.jpg" alt="Work Hard, Play Hard Image 4">
+                <div class="overlay">
+                    <span class="caption">Team Outing</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="workplay">
+                <img src="images/workplay5.jpg" alt="Work Hard, Play Hard Image 5">
+                <div class="overlay">
+                    <span class="caption">Festive Celebrations</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="bts">
+                <img src="images/behindscenes1.jpg" alt="Behind-The-Scenes Image 1">
+                <div class="overlay">
+                    <span class="caption">Filming Prep</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="bts">
+                <img src="images/behindscenes2.jpg" alt="Behind-The-Scenes Image 2">
+                <div class="overlay">
+                    <span class="caption">Sound Check</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="bts">
+                <img src="images/behindscenes3.jpg" alt="Behind-The-Scenes Image 3">
+                <div class="overlay">
+                    <span class="caption">Interview Setup</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="bts">
+                <img src="images/behindscenes4.jpg" alt="Behind-The-Scenes Image 4">
+                <div class="overlay">
+                    <span class="caption">Editing Suite</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="bts">
+                <img src="images/behindscenes5.jpg" alt="Behind-The-Scenes Image 5">
+                <div class="overlay">
+                    <span class="caption">Public Relation</span>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="Office Tour">
+                <img src="images/event1.jpg" alt="Office1">
+                <div class="overlay">
+                    <span class="caption">Mumbai</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Office Tour">
+                <img src="images/event2.jpg" alt="Office2">
+                <div class="overlay">
+                    <span class="caption">Bhopal</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Office Tour">
+                <img src="images/event3.jpg" alt="Office3">
+                <div class="overlay">
+                    <span class="caption">Delhi</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Office Tour">
+                <img src="images/event4.jpg" alt="Office4">
+                <div class="overlay">
+                    <span class="caption">Indore</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Office Tour">
+                <img src="images/event5.jpg" alt="Office5">
+                <div class="overlay">
+                    <span class="caption">Pune</span>
+                </div>
+            </div>
+
+            <div id="fullscreen-overlay" class="fullscreen-overlay">
+                <span class="close-btn">&times;</span>
+                <img id="fullscreen-img" src="" alt="Full Screen Image">
+                <div id="fullscreen-caption"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CollegeTips.in. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
