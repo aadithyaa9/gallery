@@ -1,0 +1,25 @@
+:root {
+    --light-bg: #f4f7f6;
+    --light-text: #333;
+    --light-header-bg: #e0e0e0;
+    --light-filter-btn-bg: #eee;
+    --light-filter-btn-text: #555;
+    --light-filter-btn-hover-bg: #007bff;
+    --light-filter-btn-hover-text: #fff;
+    --light-gallery-item-bg: #fff;
+    --light-overlay-bg: rgba(0, 0, 0, 0.7);
+    --light-overlay-text: #fff;
+
+    --dark-bg: #282c36;
+    --dark-text: #e0e0e0;
+    --dark-header-bg: #1c202a;
+    --dark-filter-btn-bg: #3c4048;
+    --dark-filter-btn-text: #ccc;
+    --dark-filter-btn-hover-bg: #007bff;
+    --dark-filter-btn-hover-text: #fff;
+    --dark-gallery-item-bg: #363a45;
+    --dark-overlay-bg: rgba(0, 0, 0, 0.85);
+    --dark-overlay-text: #fff;
+
+    --transition-speed: 0.3s ease;
+}
