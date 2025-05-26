@@ -33,7 +33,7 @@ To set up and view this photo gallery on your local machine, follow these simple
 
 1.  **Clone or Download:** Get the project files. If using Git:
     ```bash
-    git clone 
+    git clone https://github.com/aadithyaa9/gallery.git
     cd <your-repository-name>
     ```
     Alternatively, download the ZIP file and extract it.
